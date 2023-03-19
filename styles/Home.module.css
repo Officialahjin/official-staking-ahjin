@@ -1,5 +1,5 @@
 .container {
-  margin-top: 96px;
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
 
 .divider {
   width: 50%;
-  border-color: grey;
+  border-color: rgb(232, 222, 222);
   opacity: 0.25;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .nftBoxGrid {
-  width: 1200px;
+  width: 1700px;
   max-width: 95vw;
   display: flex;
   flex-direction: row;
@@ -175,6 +175,26 @@
 
 .nftMedia {
   width: 100%;
-  max-height: 300px;
+  max-height: 150px;
   border-radius: 15px;
+}
+.logoIcon {
+  position: fixed;
+  top: 2px;
+  left: 89px;
+  width: 152px;
+  height: 129px;
+  overflow: hidden;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #742998;
+  height: 129px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #000;
 }
